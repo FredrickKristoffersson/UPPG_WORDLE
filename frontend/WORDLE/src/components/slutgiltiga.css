@@ -1,0 +1,51 @@
+.WORDLE_Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.length_Section {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.FORM_Section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+ul {
+    display: flex;
+}
+li {
+    display: flex;
+    padding: 0em;
+    gap: 1em;
+}
+.letters {
+    margin-left: -1em;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em;
+}
+.letter {
+    display: flex;
+    border: solid black 1px;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+.secret {
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    color: antiquewhite;
+}
